@@ -1,0 +1,47 @@
+# Docker build context exclusions - reduces build context size and improves build speed
+
+# Version Control
+.git/
+.gitignore
+.gitattributes
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Build artifacts and cache
+target/
+build/
+*.class
+*.jar
+*.war
+.gradle/
+.m2/
+node_modules/
+
+# Documentation
+*.md
+HELP.md
+ARCHITECTURE_SUMMARY.md
+
+# Environment files
+.env
+.env.local
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# OS files
+Thumbs.db
+.DS_Store
+
